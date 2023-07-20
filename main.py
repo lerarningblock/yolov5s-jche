@@ -26,7 +26,7 @@ def get_detection_folder():
     '''
         Returns the latest folder in a runs\detect
     '''
-    return max(get_subdirs(os.path.join('inference', '')), key=os.path.getmtime)
+    return 'inference'+'/'+'output'
 
 
 if __name__ == '__main__':
