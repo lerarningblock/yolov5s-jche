@@ -3,6 +3,10 @@
 streamlit
 streamlit_webrtc
 
+# pip install -r requirements.txt
+
+streamlit
+streamlit_webrtc
 
 # base ----------------------------------------
 Cython
@@ -32,3 +36,5 @@ pandas
 # extras --------------------------------------
 # thop  # FLOPS computation
 # pycocotools>=2.0  # COCO mAP
+
+
