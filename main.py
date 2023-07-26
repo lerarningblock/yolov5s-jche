@@ -50,7 +50,7 @@ if __name__ == '__main__':
     opt = parser.parse_args()
     print(opt)
 
-    source = ("图片检测", "视频检测","实时检测")
+    source = ("图片检测", "视频检测")
     source_index = st.sidebar.selectbox("选择输入", range(len(source)), format_func=lambda x: source[x])
     print(source_index)
 
