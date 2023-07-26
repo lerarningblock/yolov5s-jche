@@ -31,7 +31,7 @@ def get_detection_folder():
 
 if __name__ == '__main__':
 
-    st.title('YOLOv5 Streamlit App')
+    st.title('YOLOv7 Streamlit App')
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--weights', type=str, default='weights/yolov5s.pt', help='model.pt path')
